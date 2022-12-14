@@ -1,0 +1,69 @@
+# (25%) Ejercicio 1
+Realice conversiones entre las unidades de medida presentadas en la siguiente tabla:
+
+| Índice | Conversión                           | Factor |
+|:------:|--------------------------------------|:------:|
+| 0      | Kilómetro a metro                    | 1000   |
+| 1      | Centímetro a metro                   | 0.01   |
+| 2      | Kilómetro por hora a millas por hora | 0.62   |
+| 3      | Nota en Educatic a nota en Canvas    | 20     |
+| 4      | Nota en Canvas a nota en Educatic    | 0.05   |
+| 5      | Mililitro a centímetro cúbico        | 1      |
+| 6      | Dólar (USA) a peso colombiano        |Actualizar|
+| 7      | Peso colombiano a dólar (USA)        |Actualizar|
+| 8      | Libra a kilogramo                    | 0.45   |
+| 9     | Minuto luz a kilómetro               | 17987539.67|
+
+Para este ejercicio se deben almacenar los factores de conversión en un vector (tipo de dato ```list``` de Python) para luego:
+
+- Solicitar al usuario el dato que quiere convertir para que lo ingrese por teclado.
+- Tranformar el dato tipo texto ```str``` en tipo numérico (```int``` o ```float``` según sea el caso).
+- Acceder al factor de conversión correspondiente de acuerdo a su posición o índice en el vector de factores de conversión.
+
+
+=======================================================================================================================================
+# (25%) Ejercicio 2
+
+La distancia entre dos puntos en un plano se calcula con la siguiente fórmula:
+
+> $d(P_1, P_2)=\sqrt{{(x_2-x_1)}^2-{(y_2-y_1)}^2}$
+
+Donde las coordenadas *x* y *y* indican la posición en la que se encuentra cada punto *P*.
+
+Realiza un algoritmo que permita al usuario ingresar los cuatro valores de las coordenadas en orden (debes indicarle cuál coordenada está ingresando) y calcular la distancia *d*. 
+
+El resultado debe presentar dos cifras decimales y separador de miles.
+
+Además, para el presente ejercicio necesitas importar la librería matemática ```math``` y usar sus componentes de potenciación y radicación.
+
+
+=======================================================================================================================================
+# (25%) Ejercicio 3
+
+Se conoce que la luz viaja una velocidad de 300000 kilómetros por segundo. Calcule cuánto tarda en llegar un rayo de luz desde el sol hasta cada uno de los planetas presentados en la siguiente tabla:
+
+| Planeta  | Distancia hasta el sol en km |
+|----------|-----------------------------:|
+| Mercurio | 57910000
+| Venus    | 108200000
+| Tierra   | 149600000
+| Marte    | 227910000
+| Júpiter  | 778330000
+| Saturno  | 1429400000
+| Urano    | 2870990000
+| Neptuno  | 4504300000
+
+=======================================================================================================================================
+# (25%) Ejercicio 4
+
+Al final del bloque completaremos un programa que permita calcular la calificación final de un curso de acuerdo al porcentaje de ponderación y la calificación obtenida en cada tarea.
+
+En este ejercicio debes solicitar al usuario, [por medio de formularios](https://www.youtube.com/watch?v=vx7yOZ5_Cw8), la calificación obtenida en cada una de las 4 tareas descritas en la tabla, y con esa información debes calcular la calificación final.
+
+
+| Nombre actividad                        | Porcentaje  |
+|-----------------------------------------|:-----------:|
+| S25 - Actividad de aprendizaje Tarea 01 |     25%     |
+| S25 - Actividad de aprendizaje Tarea 02 |     25%     |
+| S30 - Actividad de aprendizaje Tarea 03 |     30%     |
+| F20 - Actividad Investigativa           |     20%     |
